@@ -9,5 +9,6 @@ def square_array(array)
     puts array[index]
     index += 1
     
+  end
   
-end
+  
