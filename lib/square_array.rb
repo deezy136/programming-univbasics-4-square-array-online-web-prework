@@ -3,9 +3,11 @@ index = 0
 def square_array(array)
   # your code here
   
-  while (array[idex]) do
+  while (array[index]) do
     array[index] = Math.sqrt(array[index])
-    index
-    puts 
+    
+    puts array[index]
+    index += 1
+    
   
 end
