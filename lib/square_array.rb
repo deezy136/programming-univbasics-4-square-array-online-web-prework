@@ -6,12 +6,12 @@ def square_array(array)
   index = 0
   while (array[index]) do
     array[index] = array[index] ** 2
+        puts array[index]
+             index += 1
+    end
     
-    puts array[index]
-    index += 1
-  end
-  
-  return array
+   return array
+   
   end
   
   numbers = [1,2,3]
