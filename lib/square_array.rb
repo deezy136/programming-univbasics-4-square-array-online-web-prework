@@ -5,7 +5,7 @@ def square_array(array)
   
   index = 0
   while (array[index]) do
-    array[index] = array[index] * 2
+    array[index] = array[index] ** 2
     
     puts array[index]
     index += 1
